@@ -6,10 +6,9 @@
 //  Copyright © 2017年 SouSouRun. All rights reserved.
 //
 
-#import "BasedViewController.h"
+#import <UIKit/UIKit.h>
 
-
-@interface SCCameraVideoViewController : BasedViewController
+@interface SCCameraVideoViewController : UIViewController
 
 @property(nonatomic, copy) void (^sendVideoBlock)(NSString *videofilePath, UIImage *image);
 
